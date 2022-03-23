@@ -11,7 +11,7 @@ package evaluaciongrupomas;
  */
 public class Ejercicio3 {
 
-    public void masOcurrencias(int[] myArray) {
+    public void masOcurrencias(int[] myArray) { //Recibe un array y retorna en consola el número que más se repite
         int repeticiones = 0,mayor = 0,numero = 0;
         for (int i = 0; i < myArray.length; i++) {
             int contador = 0;

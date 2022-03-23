@@ -10,8 +10,7 @@ package evaluaciongrupomas;
  * @author DELL
  */
 public class Ejercicio2 {
-    public void sumaDiez(int[] myArray){
-        int suma =0;
+    public void sumaDiez(int[] myArray){ //Recibe un array y retorna en consola los dos primeros números que sumados dan 10
         aa:  
         for (int i = 0; i < myArray.length-1; i++) {
             for (int j = 1; j < myArray.length; j++) {

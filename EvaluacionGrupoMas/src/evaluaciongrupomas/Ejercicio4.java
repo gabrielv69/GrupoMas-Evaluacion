@@ -10,8 +10,7 @@ package evaluaciongrupomas;
  * @author DELL
  */
 public class Ejercicio4 {
-        public void histograma(int[] myArray) {
-        int numero = 0;
+        public void histograma(int[] myArray) {//Recibe un array y retorna en consola un histograma
         for (int i = 1; i < 6; i++) {
             int contador = 0;
             for (int j = 0; j < myArray.length; j++) {

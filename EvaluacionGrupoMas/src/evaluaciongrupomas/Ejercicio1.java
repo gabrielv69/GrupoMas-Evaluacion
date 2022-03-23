@@ -12,7 +12,7 @@ package evaluaciongrupomas;
 public class Ejercicio1 {
     
     //Una matriz es simétrica si se ve igual si está invertida
-    public void simetrica(char[] myArray){
+    public void simetrica(char[] myArray){ //Recibe un array y retorna en consola si es simétrica o no
         boolean simetrica = true;
         for (int i = 0; i < myArray.length/2; i++) {
             char first = myArray[i];
